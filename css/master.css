@@ -117,47 +117,46 @@ a {
 
 .main-content {
 	width: 100%;
-	background-color: #232427;
+	background-color: white;
 	padding-bottom: 3em;
 }
 
 .portafolio {
 	display: flex;
+	flex-direction: column;
 }
 
-.col-izq {
+.row-uno {
+	display: flex;
+	justify-content: space-between;
+}
+
+.desc-trabajos {
+	align-self: center;
+	text-align: center;
 	flex: 1;
-	margin-right: 2px;
 }
 
-.col-dere {
-	flex: 1;
-	position: relative;
-	margin-left: 2px;
+.desc-trabajos h2 {
+	font-size: 1.8em;
 }
 
-.mt-menos {
-	margin-top: -70px;
+.desc-trabajos h4 {
+	font-weight: 400;
+	font-size: 1.3em;
 }
+
+.row-dos {
+	display: flex;
+	justify-content: space-between;
+}
+
 
 .img-responsiva {
     max-width: 100%;
     height: auto;
 }
 
-.desc-trabajos {
-	color: white;
-	text-align: center;
-	margin: 10em;
-}
-
-.desc-trabajos h2 {
-	font-weight: 600;
-}
-
-.desc-trabajos h4 {
-	font-weight: 400;
-}
 
 .btn-ver-mas {
 	text-align: center;
