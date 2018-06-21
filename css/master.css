@@ -1,0 +1,174 @@
+/*------Global--------*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	width:100%;
+	font-family: 'Raleway', sans-serif;
+}
+
+a {
+	outline:none;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	transition: all 0.2s ease;
+}
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.menu-nav {
+	width: 100%;
+}
+
+.container {
+	width:80%;
+	margin:0 auto;
+}
+
+.nav div {
+	height: 4px;
+	background-color: black;
+	margin: 5px 0;
+	border-radius: 25px;
+	transition: 0.3s;
+}
+
+.nav {
+	width: 30px;
+	display: block;
+	margin: 1em 0 0 1em;
+}
+
+.one {
+	width: 30px;
+}
+
+.two {
+	width: 20px;
+}
+
+.three {
+	width: 25px;
+}
+
+.nav:hover div {
+	width: 30px;
+}
+
+.main-nav a:hover svg:hover path, .main-nav a:hover svg:hover polygon {
+	fill:#e74c3c;
+	-webkit-transition:all .2s ease;
+}
+
+.main-parrafo {
+	width: 100%;
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 6em;
+}
+
+.titulo {
+	color: #777777;
+	font-size: 2.6em;
+	font-weight: normal;
+	padding: 2em 4em;
+}
+
+/*.titulo::after {
+	content: "";
+	display:block;
+	height:3px;
+	width:15%;
+	background:#232427;
+	-webkit-transition:all .4s ease;
+}*/
+
+.titulo span {
+	color: black;
+}
+
+.links ul {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	list-style: none;
+}
+
+.links ul li {
+	margin: 1em;
+}
+
+.links ul li a {
+	color: black;
+}
+
+.links ul li a:hover {
+	color: #e74c3c;
+}
+
+.main-content {
+	width: 100%;
+	background-color: #232427;
+	padding-bottom: 3em;
+}
+
+.portafolio {
+	display: flex;
+}
+
+.col-izq {
+	flex: 1;
+	margin-right: 2px;
+}
+
+.col-dere {
+	flex: 1;
+	position: relative;
+	margin-left: 2px;
+}
+
+.mt-menos {
+	margin-top: -70px;
+}
+
+.img-responsiva {
+    max-width: 100%;
+    height: auto;
+}
+
+.desc-trabajos {
+	color: white;
+	text-align: center;
+	margin: 10em;
+}
+
+.desc-trabajos h2 {
+	font-weight: 600;
+}
+
+.desc-trabajos h4 {
+	font-weight: 400;
+}
+
+.btn-ver-mas {
+	text-align: center;
+	margin: 2em 0;
+}
+
+.btn-ver-mas a {
+	color: #e74c3c;
+	text-decoration: none;
+	padding: 10px 25px;
+	border: 1px solid #e74c3c;
+	border-radius: 50px;
+}
+
