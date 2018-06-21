@@ -171,3 +171,20 @@ a {
 	border-radius: 50px;
 }
 
+.footer {
+	width: 100%;
+	background: -webkit-linear-gradient(left, #e74c3c 50%,#ffffff 50%,#ffffff 50%);
+	background: linear-gradient(to right, #e74c3c 50%,#ffffff 50%,#ffffff 50%);
+}
+
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 2em;
+}
+
+.col-uno {
+	color: white;
+	background-color: green;
+}
