@@ -14,11 +14,25 @@
 	<!-- Custom Css -->
 	<link rel="stylesheet" href="css/master.css">
 	
+	<!--JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	
 </head>
 <body>
-	<section class="navegacion">
+	<section id="navegation" class="navegacion">
 			<div class="container">
-
+				<nav class="sec-nav">
+					<ul>
+						<li><a href="#">Proyectos</a></li>
+						<li><a href="#">Informaci&oacute;n</a></li>
+						<li><a href="#">Contacto</a></li>
+					</ul>
+					<a href="#" class="cerrar-nav" onclick="closeNav()">
+						<div class="cuatro"></div>
+						<div class="cinco"></div>
+					</a>
+				</nav>
 			</div>
 	</section>
 	<section class="menu-nav">
@@ -36,7 +50,7 @@
 					</svg>
 				</a>
 
-				<a href="#" class="nav">
+				<a href="#" class="nav" onclick="openNav()">
 					<div class="one"></div>
 					<div class="two"></div>
 					<div class="three"></div>
@@ -113,98 +127,19 @@
 	
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-	<!--<section id="menunav" class="menu-nav">
-		<div class="container">
-			<div class="menu-close">
-				<div class="close">
-					<a href="#" onclick="closeNav()">Cerrar</a>
-				</div>
-			</div>
-		</div>
-		<nav class="menu-links">
-			<ul>
-				<li>
-					<a href="#">Trabajos</a>
-				</li>
-				<li>
-					<a href="#">Sobre mi</a>
-				</li>
-				<li>
-					<a href="#">Contacto</a>
-				</li>
-			</ul>
-		</nav>
-	</section>
-
-	<section id="menufake" class="menu-fake">
-	</section>
-	
-	<nav class="main">
-		<div class="container">
-			<div class="main-logo">
-				<a href="index.html">
-					<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 					width="133px" height="79px" viewBox="0 0 133 79" enable-background="new 0 0 133 79" xml:space="preserve">
-						<style type="text/css">
-							.st0{fill:#000000;}
-						</style>
-						<path class="st0" d="M117.898,73.334h9.26L88.586,12.156l-4.59-7.407l-0.041,0.064l-0.04-0.064l-4.59,7.407L66.658,32.247L53.991,12.156
-							l-4.59-7.407l-0.041,0.064l-0.04-0.064l-4.59,7.407L6.158,73.334h9.26L49.361,19.5L62.028,39.59L40.752,73.334h5.213h4.047h33.291
-							h3.657h5.604L71.288,39.59L83.955,19.5L117.898,73.334z M78.533,65.768h-23.75l11.875-18.834L78.533,65.768z"/>
-					</svg>
-				
-				</a>
-			</div>
-			<div class="main-menu">
-				<a href="#" onclick="openNav()">Men&uacute;</a>
-			</div>
-		</div>
-	</nav>-->
-
-	<!--<section id="loader" class="loader">
-	</section>
-
-
 	<script>
-		$(document).ready(function () {
-			setTimeout( function(){
-				$('#loader').css("width", "0");
-				$('.banner').addClass('firstcolor');
-				$('.banner').removeClass('newcolor');
-			},1);
-		});
 
 		function openNav() {
-			document.getElementById("menunav").style.height = "50%";
-			document.getElementById("menufake").style.height = "50%";
+			document.getElementById("navegation").style.height = "100%";
+			$('.navegacion').css("display", "block");
 		}
 
 		function closeNav() {
-			document.getElementById("menunav").style.height = "0";
-			document.getElementById("menufake").style.height = "0";
+			document.getElementById("navegation").style.height = "0";
+			$('.navegacion').css("display", "none");
 		}
 		
-	</script>-->
+	</script>
 
 
 </body>
