@@ -82,7 +82,7 @@
 						<h2>Trabajos recientes</h2>
 						<h4>Algunos de mis proyectos</h4>
 					</div>
-					<div class="proyecto">
+					<div class="proyecto cambio-largo">
 						<img src="img/proyuno.jpg" class="img-responsiva" alt="Proyecto 1">
 					</div>
 				</div>
@@ -130,12 +130,14 @@
 	<script>
 
 		function openNav() {
-			document.getElementById("navegation").style.height = "100%";
+			//document.getElementById("navegation").style.height = "100%";
+			$('.navegacion').css("max-height", "100%");
 			$('.navegacion').css("display", "block");
 		}
 
 		function closeNav() {
-			document.getElementById("navegation").style.height = "0";
+			//document.getElementById("navegation").style.height = "0";
+			$('.navegacion').css("max-height", "0");
 			$('.navegacion').css("display", "none");
 		}
 		
