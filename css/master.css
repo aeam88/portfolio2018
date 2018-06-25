@@ -268,6 +268,32 @@ footer {
 	transform: rotate(0);
 }
 
+/*.proyecto {
+	position: relative;
+}
+
+.proyecto:hover {
+
+}
+
+.textHover {
+	width: 100%;
+	height: 100%;
+	background: rgba(103, 58, 183, 0.71);
+	position: absolute;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+	transition: 0.7s ease;
+}
+
+.textHover h4 {
+	color: white;
+	border: 6px solid white;
+	padding: 10px 30px;
+}*/
 
 
 
@@ -351,6 +377,10 @@ footer {
 @media (max-width: 750px) {
 	.titulo {
 		font-size: 2em;
+	}
+	svg#Capa_1 {
+		width: 100px;
+		height: auto;
 	}
 }
 
