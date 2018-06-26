@@ -307,9 +307,38 @@ footer {
 	margin-bottom: 4em;
 }
 
+/*-------- Contacto -----------*/
 
+.formulario h3 {
+	color: black;
+	font-size: 2em;
+	font-weight: normal;
+	margin-bottom: 2em;
+}
 
+.redes-sociales h3 {
+	color: black;
+	font-size: 2em;
+	font-weight: normal;
+	margin-bottom: 2em;
+}
 
+.redes-sociales ul {
+	display: flex;
+	list-style: none;
+}
+
+.redes-sociales ul li {
+	margin: 2em;
+}
+
+.redes-sociales ul li a {
+	color: black;
+}
+
+.redes-sociales ul li a:hover {
+	color: #e74c3c;
+}
 
 /*------ MediaQuery ------*/
 
