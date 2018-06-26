@@ -309,11 +309,19 @@ footer {
 
 /*-------- Contacto -----------*/
 
+.formulario {
+	flex: 1;
+}
+
 .formulario h3 {
 	color: black;
 	font-size: 2em;
 	font-weight: normal;
 	margin-bottom: 2em;
+}
+
+.redes-sociales {
+	flex: 1;
 }
 
 .redes-sociales h3 {
@@ -326,6 +334,7 @@ footer {
 .redes-sociales ul {
 	display: flex;
 	list-style: none;
+	justify-content: center;
 }
 
 .redes-sociales ul li {
@@ -340,6 +349,60 @@ footer {
 	color: #e74c3c;
 }
 
+.style-1 input[type="text"] {
+	width: 60%;
+    padding: 18px 15px;
+    background-color: #474747;
+    border: none;
+    border-radius: 0 !important;
+    transition: border 0.3s;
+    color: #ffffff;
+    margin-bottom: .5em;
+}
+
+.style-1 input[type="email"] {
+	width: 60%;
+    padding: 18px 15px;
+    background-color: #474747;
+    border: none;
+    border-radius: 0 !important;
+    transition: border 0.3s;
+    color: #ffffff;
+    margin-bottom: .5em;
+}
+
+.style-1 .estilo-area {
+    background-color: #474747;
+    padding: 18px 15px;
+    border: none;
+    border-radius: 0 !important;
+    transition: border 0.3s;
+    color: #ffffff;
+    width: 60%;
+    margin-top: .1em;
+}
+
+.btn_submit_contacto {
+    background-color: #e74c3c;
+    cursor: pointer;
+    color: white;
+    padding: 18px 26px;
+    text-decoration: none;
+    border: 1px solid #e74c3c;
+    transition: .5s;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    width: 60%;
+}
+
+.btn_submit_contacto:hover {
+    background-color: transparent;
+    cursor: pointer;
+    color: #e74c3c;
+    transition: .5s;
+    border: 1px solid #e74c3c;
+}
+
 /*------ MediaQuery ------*/
 
 @media (max-width: 1632px) {
@@ -351,6 +414,22 @@ footer {
 @media (max-width: 1365px) {
 	.titulo {
 		padding: 2em;
+	}
+
+	.style-1 input[type="text"] {
+		width: 80%;
+	}
+
+	.style-1 input[type="email"] {
+		width: 80%;
+	}
+
+	.style-1 .estilo-area {
+    	width: 80%;
+	}
+
+	.btn_submit_contacto {
+		width: 80%;
 	}
 }
 
@@ -400,6 +479,22 @@ footer {
 	.col-dos {
     	margin-top: 5em;
     	align-self: center;
+	}
+
+	.style-1 input[type="text"] {
+		width: 100%;
+	}
+
+	.style-1 input[type="email"] {
+		width: 100%;
+	}
+
+	.style-1 .estilo-area {
+    	width: 100%;
+	}
+
+	.btn_submit_contacto {
+		width: 100%;
 	}
 }
 
