@@ -418,6 +418,83 @@ footer {
     border: 1px solid #e74c3c;
 }
 
+
+
+/*------- Sobre Mi --------*/
+
+.row-tres {
+	width: 100%;
+	margin-bottom: 2em;
+}
+
+.row-tres h2 {
+	margin: 2em 0;
+}
+
+.skill-section {
+	display: flex;
+}
+
+.contenedor-skills {
+	flex: 1;
+	padding: 1em;
+	transition: all .5s;
+}
+
+.contenedor-skills:hover {
+	transition: all .5s;
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(194,194,194,1);
+	-moz-box-shadow: 0px 0px 16px 0px rgba(194,194,194,1);
+	box-shadow: 0px 0px 16px 0px rgba(194,194,194,1);
+}
+
+.contenedor-skills2 {
+	flex: 1;
+	padding: 1em;
+	transition: all .5s;
+}
+
+.contenedor-skills2:hover {
+	transition: all .5s;
+	-webkit-box-shadow: 0px 0px 16px 0px rgba(194,194,194,1);
+	-moz-box-shadow: 0px 0px 16px 0px rgba(194,194,194,1);
+	box-shadow: 0px 0px 16px 0px rgba(194,194,194,1);
+}
+
+.skillBox {
+	display: flex;
+	justify-content: space-between;
+	padding: 2em;
+}
+
+.skill {
+	border: 1px solid #e74c3c;
+	margin: 0 2em;
+}
+
+.skill_level {
+	margin: 4px;
+	background-color: #e74c3c;
+	height: 5px;
+	width: 90%;
+}
+
+.skill_level2 {
+	margin: 4px;
+	background-color: #e74c3c;
+	height: 5px;
+	width: 80%;
+}
+
+.skill_level3 {
+	margin: 4px;
+	background-color: #e74c3c;
+	height: 5px;
+	width: 70%;
+}
+
+
+
 /*------ MediaQuery ------*/
 
 @media (max-width: 1632px) {
@@ -511,6 +588,10 @@ footer {
 	.btn_submit_contacto {
 		width: 100%;
 	}
+
+	.skill-section {
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 750px) {
@@ -537,6 +618,14 @@ footer {
 
 	.cerrar-nav {
     	margin: 1.5em 0 0 0;
+	}
+
+	.skillBox {
+		padding: 2em 1em;
+	}
+
+	.skill {
+		margin: 0 1em;
 	}
 }
 
