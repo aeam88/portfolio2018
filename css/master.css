@@ -352,34 +352,49 @@ footer {
 .style-1 input[type="text"] {
 	width: 60%;
     padding: 18px 15px;
-    background-color: #474747;
-    border: none;
+    background-color: white;
+    border: 1px solid #dadada;
     border-radius: 0 !important;
     transition: border 0.3s;
-    color: #ffffff;
+    color: #333;
     margin-bottom: .5em;
+}
+
+.style-1 input[type="text"]:focus {
+	outline: none;
+    border: 1px solid #e74c3c;
 }
 
 .style-1 input[type="email"] {
 	width: 60%;
     padding: 18px 15px;
-    background-color: #474747;
-    border: none;
+    background-color: white;
+    border: 1px solid #dadada;
     border-radius: 0 !important;
     transition: border 0.3s;
-    color: #ffffff;
+    color: #333;
     margin-bottom: .5em;
 }
 
+.style-1 input[type="email"]:focus {
+	outline: none;
+    border: 1px solid #e74c3c;
+}
+
 .style-1 .estilo-area {
-    background-color: #474747;
+    background-color: white;
     padding: 18px 15px;
-    border: none;
+    border: 1px solid #dadada;
     border-radius: 0 !important;
     transition: border 0.3s;
-    color: #ffffff;
+    color: #333;
     width: 60%;
     margin-top: .1em;
+}
+
+.style-1 .estilo-area:focus {
+	outline: none;
+    border: 1px solid #e74c3c;
 }
 
 .btn_submit_contacto {
