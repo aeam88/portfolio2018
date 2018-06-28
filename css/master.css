@@ -418,6 +418,16 @@ footer {
     border: 1px solid #e74c3c;
 }
 
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #737373;
+}
+
+.text-danger {
+    color: #e74c3c;
+}
 
 
 /*------- Sobre Mi --------*/
