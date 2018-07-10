@@ -192,6 +192,10 @@ footer {
 	padding-bottom: 2em;
 }
 
+footer p {
+	color: white;
+}
+
 .col-uno {
 	color: white;
 	margin-top: 3em;
@@ -655,17 +659,19 @@ footer {
 	}
 
 	.footer {
-	background: -webkit-linear-gradient(top, #e74c3c 50%,#ffffff 50%,#ffffff 100%);
-	background: linear-gradient(to bottom, #e74c3c 50%,#ffffff 50%,#ffffff 100%);
+	background: -webkit-linear-gradient(top, #ffffff 50%,#e74c3c 50%,#e74c3c 100%);
+	background: linear-gradient(to bottom, #ffffff 50%,#e74c3c 50%,#e74c3c 100%);
 	}
 
 	.col-uno {
     	text-align: center;
+    	order: 2;
 	}
 
 	.col-dos {
-    	margin-top: 5em;
+    	/*margin-top: 5em;*/
     	align-self: center;
+    	order: 1;
 	}
 
 	.style-1 input[type="text"] {
