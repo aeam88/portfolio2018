@@ -586,6 +586,11 @@ footer p {
 }
 
 
+.disabled {
+	opacity: .5;
+}
+
+
 /*------ Proyecto interna -------*/
 
 .mt-proyecto {
